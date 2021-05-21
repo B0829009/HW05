@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Header() {
+function Title() {
     return (
         <header style={headerStyle}>
-            <h1>CGU Todo List</h1>
+            <h1>Todo List</h1>
         </header>
     )
 }
@@ -16,4 +16,4 @@ const headerStyle = {
 }
 
 
-export default Header;
+export default Title;
